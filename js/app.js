@@ -1,13 +1,9 @@
 const ingresos = [
-    new Ingreso('Salario', 2100.00),
-    new Ingreso('Venta coche', 1500)
+    new Ingreso('Sueldo', 2100.00)
 ];
 
 const egresos = [
-    new Egreso('Renta departamento', 900),
-    new Egreso('Ropa', 400),
-    new Egreso('Ropa', 400),
-    new Egreso('Ropa', 400)
+    new Egreso('Pago de alquiler', 900)
 ];
 
 let cargarApp = ()=>{
